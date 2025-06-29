@@ -1,4 +1,4 @@
-package exam01
+package exam
 
 fun main(){
     print("入場者数を入力してください: ")
@@ -9,7 +9,7 @@ fun main(){
         "各200円"
     }else{
         (1..numofpeaple).forEach{
-            println("${it}人目の年齢を入力してください: ")
+            print("${it}人目の年齢を入力してください: ")
             val age = readln().toInt()
             if (age >= 65){
                 totalprice += 1_300

@@ -1,4 +1,4 @@
-package exam01
+package exam
 
 import kotlin.random.Random
 

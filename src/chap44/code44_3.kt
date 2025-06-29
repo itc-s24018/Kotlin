@@ -13,5 +13,5 @@ fun main() {
 
 fun String.getOneTwoFiveMessage(): String = "一に${this}、二に${this}、三、四がなくて五に${this}"
 
-val String.oneTwoFiveMessage: String
-    get() = "一に${this}、二に${this}、三、四がなくて五に${this}"
+//val String.oneTwoFiveMessage: String
+//    get() = "一に${this}、二に${this}、三、四がなくて五に${this}"
